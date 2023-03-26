@@ -1,5 +1,13 @@
 # Eta
 
+# Demo
+
+* [Website](https://eta-scaling.vercel.app)
+* [Demo Video](https://drive.google.com/file/d/1e7wZKTtdFm-d69iR_YH1E5u8rAbTU0a_/view?usp=share_link)
+
+
+# Introduction
+
 Eta presents an advanced, decentralized exchange platform that supplies liquidity, offers an automated yield-generating stablecoin, and facilitates peer-to-peer transactions. Users can engage in direct trading from their digital wallets, circumventing the need for third-party intermediaries, thereby ensuring complete token custody and unwavering ownership.
 
 Moreover, the combination of minimal trading fees and abundant liquidity renders Eta an appealing platform for trading purposes, while concurrently extending wide-ranging support to various aspects of the community. This enables continual adaptation to dynamic market conditions and ongoing value provision to token holders and the community at large.
