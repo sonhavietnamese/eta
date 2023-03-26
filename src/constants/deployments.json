@@ -1,0 +1,551 @@
+{
+    "zkEVM": {
+        "bridge": {
+            "Faucet": "0x3d0440A3eA85e120864ae609d1383006A1490786",
+            "Bridge": "0x935B30d75F57659CF41Bd868A8032E58Fe53C369"
+        },
+        "stablecoin": {
+            "etaUSD": "0x4beC7Ad5a195fc04b8eB600d975Fc70fB534d4Fc"
+        },
+        "vault": {
+            "tokens": {
+                "ibDCT": "0xBc43C5D55d936cA74dB498a123433eb9EcA0882D",
+                "ibMAV": "0xf0BB8e57747b9C06b204Be6bb1Ce066F4611B613",
+                "ibWLR": "0x370f6f309970511b9AfBb15D70550c7d88ADc23d",
+                "ibDIB": "0x0610a5b38793e03bdAaE2E197EfDe227B1c87a93"
+            },
+            "Oracle": "0xb13Ce5292F07b372F91bF445cd0b66c76Ed1DaDA",
+            "ChainLink": "0x54c4f03aC3F498263ac904EDE5F690342687d4ce",
+            "EtaVault": "0x5a3ED2864148722e2A625e70237E7cc2D0df29a5",
+            "RewardControl": "0x7f77AA1F167fb79F46c24Fc9CeAA5Efb4AB8eEfd",
+            "RateModel": "0x58cF2a5325C36C891289b741FDf674A3396378A1"
+        },
+        "misc": {
+            "Multicall2": "0x19F385fD55793cc82Fc258AAE45B0BA0158A5023"
+        },
+        "tokens": {
+            "DCT": "0xEe6ef3FA09858E6D7cd6873fcAC79FcA4aBaF281",
+            "DIB": "0xfd6B4029b0A1af7b2995Bd2be862BD643AF115F1",
+            "WLR": "0xB3798f7b3A28FD8ac505ecF05de94B962E946089",
+            "MAV": "0x03aa21578A3B1895277F3A8e4e2973270D650472",
+            "ETA": "0x93aF686296Bf79161165DFE93a8E3BFc8323927B",
+            "wETH": "0xad95cc76Ce5F9cc715a0093261d70dF72E61afAe"
+        },
+        "swap": {
+            "EtaFactory": "0xC766BD2b43EE71954a60585028518Aaf1fb5Ae3F",
+            "EtaRouter02": "0x3D85963d01c981003d74A7d827b99E4cC62e048F"
+        },
+        "pairs": {
+            "0xEe6ef3FA09858E6D7cd6873fcAC79FcA4aBaF281-0xfd6B4029b0A1af7b2995Bd2be862BD643AF115F1": {
+                "id": 4,
+                "tokenA": "DCT",
+                "tokenB": "DIB",
+                "pairAddress": "0xa4aa2992725dAAA9b1014adDF76ECF23CCce8409"
+            },
+            "0xfd6B4029b0A1af7b2995Bd2be862BD643AF115F1-0xEe6ef3FA09858E6D7cd6873fcAC79FcA4aBaF281": {
+                "id": 4,
+                "tokenA": "DIB",
+                "tokenB": "DCT",
+                "pairAddress": "0xa4aa2992725dAAA9b1014adDF76ECF23CCce8409"
+            },
+            "0xEe6ef3FA09858E6D7cd6873fcAC79FcA4aBaF281-0xB3798f7b3A28FD8ac505ecF05de94B962E946089": {
+                "id": 6,
+                "tokenA": "DCT",
+                "tokenB": "WLR",
+                "pairAddress": "0xEDEd66a2E9dfCAB4C66562051b91ef1Fcd98ba9f"
+            },
+            "0xB3798f7b3A28FD8ac505ecF05de94B962E946089-0xEe6ef3FA09858E6D7cd6873fcAC79FcA4aBaF281": {
+                "id": 6,
+                "tokenA": "WLR",
+                "tokenB": "DCT",
+                "pairAddress": "0xEDEd66a2E9dfCAB4C66562051b91ef1Fcd98ba9f"
+            },
+            "0xEe6ef3FA09858E6D7cd6873fcAC79FcA4aBaF281-0x03aa21578A3B1895277F3A8e4e2973270D650472": {
+                "id": 9,
+                "tokenA": "DCT",
+                "tokenB": "MAV",
+                "pairAddress": "0x5B4722e4e775108fcC04d3b0C057BF4B7ee18893"
+            },
+            "0x03aa21578A3B1895277F3A8e4e2973270D650472-0xEe6ef3FA09858E6D7cd6873fcAC79FcA4aBaF281": {
+                "id": 9,
+                "tokenA": "MAV",
+                "tokenB": "DCT",
+                "pairAddress": "0x5B4722e4e775108fcC04d3b0C057BF4B7ee18893"
+            },
+            "0xEe6ef3FA09858E6D7cd6873fcAC79FcA4aBaF281-0xad95cc76Ce5F9cc715a0093261d70dF72E61afAe": {
+                "id": 13,
+                "tokenA": "DCT",
+                "tokenB": "wETH",
+                "pairAddress": "0xCe5c43d616CCF346edeCA02706802fCBd0ADe029"
+            },
+            "0xad95cc76Ce5F9cc715a0093261d70dF72E61afAe-0xEe6ef3FA09858E6D7cd6873fcAC79FcA4aBaF281": {
+                "id": 13,
+                "tokenA": "wETH",
+                "tokenB": "DCT",
+                "pairAddress": "0xCe5c43d616CCF346edeCA02706802fCBd0ADe029"
+            },
+            "0xfd6B4029b0A1af7b2995Bd2be862BD643AF115F1-0x03aa21578A3B1895277F3A8e4e2973270D650472": {
+                "id": 10,
+                "tokenA": "DIB",
+                "tokenB": "MAV",
+                "pairAddress": "0xa82E3448AA30c081e0394F646798cFB122dc944F"
+            },
+            "0x03aa21578A3B1895277F3A8e4e2973270D650472-0xfd6B4029b0A1af7b2995Bd2be862BD643AF115F1": {
+                "id": 10,
+                "tokenA": "MAV",
+                "tokenB": "DIB",
+                "pairAddress": "0xa82E3448AA30c081e0394F646798cFB122dc944F"
+            },
+            "0xB3798f7b3A28FD8ac505ecF05de94B962E946089-0x03aa21578A3B1895277F3A8e4e2973270D650472": {
+                "id": 11,
+                "tokenA": "WLR",
+                "tokenB": "MAV",
+                "pairAddress": "0x858400E6d11C831c48dD1Efe51B2E0ef90b94Af3"
+            },
+            "0x03aa21578A3B1895277F3A8e4e2973270D650472-0xB3798f7b3A28FD8ac505ecF05de94B962E946089": {
+                "id": 11,
+                "tokenA": "MAV",
+                "tokenB": "WLR",
+                "pairAddress": "0x858400E6d11C831c48dD1Efe51B2E0ef90b94Af3"
+            },
+            "0xB3798f7b3A28FD8ac505ecF05de94B962E946089-0xad95cc76Ce5F9cc715a0093261d70dF72E61afAe": {
+                "id": 14,
+                "tokenA": "WLR",
+                "tokenB": "wETH",
+                "pairAddress": "0x8700ffc8898fdB19945f23bDF0268426C9598827"
+            },
+            "0xad95cc76Ce5F9cc715a0093261d70dF72E61afAe-0xB3798f7b3A28FD8ac505ecF05de94B962E946089": {
+                "id": 14,
+                "tokenA": "wETH",
+                "tokenB": "WLR",
+                "pairAddress": "0x8700ffc8898fdB19945f23bDF0268426C9598827"
+            },
+            "0x03aa21578A3B1895277F3A8e4e2973270D650472-0xad95cc76Ce5F9cc715a0093261d70dF72E61afAe": {
+                "id": 15,
+                "tokenA": "MAV",
+                "tokenB": "wETH",
+                "pairAddress": "0xf89fcb29Ef3740c835CecFeA9F91C4EB866dD4e6"
+            },
+            "0xad95cc76Ce5F9cc715a0093261d70dF72E61afAe-0x03aa21578A3B1895277F3A8e4e2973270D650472": {
+                "id": 15,
+                "tokenA": "wETH",
+                "tokenB": "MAV",
+                "pairAddress": "0xf89fcb29Ef3740c835CecFeA9F91C4EB866dD4e6"
+            }
+        }
+    },
+    "mantle": {
+        "bridge": {
+            "Faucet": "0x608e2B56FEA8198395061a5180183e253b660bEF",
+            "Bridge": "0xfc51d82922505C9330B11c64d957C54F224A6aa8"
+        },
+        "stablecoin": {
+            "etaUSD": "0x7cA78f602cc915Cb8FfF1d1DBaf7B0C12Fa3DcC7"
+        },
+        "vault": {
+            "tokens": {
+                "ibDCT": "0xa2E25078B7DA3Eb08305d88b3F99070214060Ed8",
+                "ibMAV": "0x7F9E26CFDC5Dfa90999Fac735AF4BbfD5e7538e8",
+                "ibWLR": "0x7704E6C9d3b41E5A32804C52e8Ab030410DFa59E",
+                "ibDIB": "0x409B323F11Bc02434d31015C3dAF4f5AD65acB7e"
+            },
+            "Oracle": "0xb04f0a71412aC452E1969F48Ee4DafC4AE8797cE",
+            "ChainLink": "0xD8eAa12F0011162Ea6A2FA3AE2e3E684144C0eea",
+            "EtaVault": "0xA47caec9C23963273178549e90360eb2eb74B8C1",
+            "RewardControl": "0x88482139f403F07398e734Ab59bBB1034aE1b3bE",
+            "RateModel": "0x98a32c833Be56C40D93E1F2Ca0eDcafe4010C801"
+        },
+        "misc": {
+            "Multicall2": "0x855A862f539fA0a7e5570265361385e0f994C9F5"
+        },
+        "tokens": {
+            "wETH": "0x523d9B3B10900544CF467F4Fe95012fB8b1aeD22",
+            "DCT": "0x65DF2E3Ea63E631D9f9488e1567E2AAe5aE5BBD4",
+            "DIB": "0xCE25152458A43a80BA99CeD2f4Da10A225FAFD29",
+            "WLR": "0x3342Fbe7495bFd2Ce49363141DbBF38E762EEeaf",
+            "MAV": "0xC699efe882a9cD095576bA2cff0cAd2Bb47b4a7A",
+            "ETA": "0xA75F2F1e9894e241B0e0D8d41f04CD97762081Ed"
+        },
+        "swap": {
+            "EtaFactory": "0x420A427A954bAD652223f99895089c72aB4deE58",
+            "EtaRouter02": "0x38880579f0784Aa0a7E7240eCfe080Df973AB33e"
+        },
+        "pairs": {
+            "0x523d9B3B10900544CF467F4Fe95012fB8b1aeD22-0x65DF2E3Ea63E631D9f9488e1567E2AAe5aE5BBD4": {
+                "id": 3,
+                "tokenA": "wETH",
+                "tokenB": "DCT",
+                "pairAddress": "0x29aE139c8199E1ce97FDd6a4E30395b79c3dD3ee"
+            },
+            "0x65DF2E3Ea63E631D9f9488e1567E2AAe5aE5BBD4-0x523d9B3B10900544CF467F4Fe95012fB8b1aeD22": {
+                "id": 3,
+                "tokenA": "DCT",
+                "tokenB": "wETH",
+                "pairAddress": "0x29aE139c8199E1ce97FDd6a4E30395b79c3dD3ee"
+            },
+            "0x523d9B3B10900544CF467F4Fe95012fB8b1aeD22-0x3342Fbe7495bFd2Ce49363141DbBF38E762EEeaf": {
+                "id": 9,
+                "tokenA": "wETH",
+                "tokenB": "WLR",
+                "pairAddress": "0x9E41a4235586F43eFeEEAa30A2e3ebBE753C2a42"
+            },
+            "0x3342Fbe7495bFd2Ce49363141DbBF38E762EEeaf-0x523d9B3B10900544CF467F4Fe95012fB8b1aeD22": {
+                "id": 9,
+                "tokenA": "WLR",
+                "tokenB": "wETH",
+                "pairAddress": "0x9E41a4235586F43eFeEEAa30A2e3ebBE753C2a42"
+            },
+            "0x523d9B3B10900544CF467F4Fe95012fB8b1aeD22-0xC699efe882a9cD095576bA2cff0cAd2Bb47b4a7A": {
+                "id": 12,
+                "tokenA": "wETH",
+                "tokenB": "MAV",
+                "pairAddress": "0x527225d88B553352554C652DfEDE6A70aBABC653"
+            },
+            "0xC699efe882a9cD095576bA2cff0cAd2Bb47b4a7A-0x523d9B3B10900544CF467F4Fe95012fB8b1aeD22": {
+                "id": 12,
+                "tokenA": "MAV",
+                "tokenB": "wETH",
+                "pairAddress": "0x527225d88B553352554C652DfEDE6A70aBABC653"
+            },
+            "0x65DF2E3Ea63E631D9f9488e1567E2AAe5aE5BBD4-0xCE25152458A43a80BA99CeD2f4Da10A225FAFD29": {
+                "id": 7,
+                "tokenA": "DCT",
+                "tokenB": "DIB",
+                "pairAddress": "0xa026a0B18433F100ed666F4A03a9ce595adB7Ccf"
+            },
+            "0xCE25152458A43a80BA99CeD2f4Da10A225FAFD29-0x65DF2E3Ea63E631D9f9488e1567E2AAe5aE5BBD4": {
+                "id": 7,
+                "tokenA": "DIB",
+                "tokenB": "DCT",
+                "pairAddress": "0xa026a0B18433F100ed666F4A03a9ce595adB7Ccf"
+            },
+            "0x65DF2E3Ea63E631D9f9488e1567E2AAe5aE5BBD4-0x3342Fbe7495bFd2Ce49363141DbBF38E762EEeaf": {
+                "id": 10,
+                "tokenA": "DCT",
+                "tokenB": "WLR",
+                "pairAddress": "0x3D20F9e857DbCDDE04D6F369B967F33D21B0887d"
+            },
+            "0x3342Fbe7495bFd2Ce49363141DbBF38E762EEeaf-0x65DF2E3Ea63E631D9f9488e1567E2AAe5aE5BBD4": {
+                "id": 10,
+                "tokenA": "WLR",
+                "tokenB": "DCT",
+                "pairAddress": "0x3D20F9e857DbCDDE04D6F369B967F33D21B0887d"
+            },
+            "0x65DF2E3Ea63E631D9f9488e1567E2AAe5aE5BBD4-0xC699efe882a9cD095576bA2cff0cAd2Bb47b4a7A": {
+                "id": 13,
+                "tokenA": "DCT",
+                "tokenB": "MAV",
+                "pairAddress": "0xCa0cc2bAE0FF6D6D52fD5f775704AB40866211Cd"
+            },
+            "0xC699efe882a9cD095576bA2cff0cAd2Bb47b4a7A-0x65DF2E3Ea63E631D9f9488e1567E2AAe5aE5BBD4": {
+                "id": 13,
+                "tokenA": "MAV",
+                "tokenB": "DCT",
+                "pairAddress": "0xCa0cc2bAE0FF6D6D52fD5f775704AB40866211Cd"
+            },
+            "0xCE25152458A43a80BA99CeD2f4Da10A225FAFD29-0xC699efe882a9cD095576bA2cff0cAd2Bb47b4a7A": {
+                "id": 14,
+                "tokenA": "DIB",
+                "tokenB": "MAV",
+                "pairAddress": "0xa812166F556E8D5bd97Ef70ffd3Ec302a47Eb5b4"
+            },
+            "0xC699efe882a9cD095576bA2cff0cAd2Bb47b4a7A-0xCE25152458A43a80BA99CeD2f4Da10A225FAFD29": {
+                "id": 14,
+                "tokenA": "MAV",
+                "tokenB": "DIB",
+                "pairAddress": "0xa812166F556E8D5bd97Ef70ffd3Ec302a47Eb5b4"
+            },
+            "0x3342Fbe7495bFd2Ce49363141DbBF38E762EEeaf-0xC699efe882a9cD095576bA2cff0cAd2Bb47b4a7A": {
+                "id": 15,
+                "tokenA": "WLR",
+                "tokenB": "MAV",
+                "pairAddress": "0x9b948D8A5DF0ce6faEEa8B0EF556Ba02ACCb8cA0"
+            },
+            "0xC699efe882a9cD095576bA2cff0cAd2Bb47b4a7A-0x3342Fbe7495bFd2Ce49363141DbBF38E762EEeaf": {
+                "id": 15,
+                "tokenA": "MAV",
+                "tokenB": "WLR",
+                "pairAddress": "0x9b948D8A5DF0ce6faEEa8B0EF556Ba02ACCb8cA0"
+            }
+        }
+    },
+    "chiado": {
+        "tokens": {
+            "wETH": "0x3d0440A3eA85e120864ae609d1383006A1490786",
+            "DCT": "0x935B30d75F57659CF41Bd868A8032E58Fe53C369",
+            "DIB": "0x4beC7Ad5a195fc04b8eB600d975Fc70fB534d4Fc",
+            "WLR": "0xBc43C5D55d936cA74dB498a123433eb9EcA0882D",
+            "MAV": "0xf0BB8e57747b9C06b204Be6bb1Ce066F4611B613",
+            "ETA": "0x370f6f309970511b9AfBb15D70550c7d88ADc23d"
+        },
+        "swap": {
+            "EtaFactory": "0x104e9107C71592415c0a66FB93A406726Ee8602b",
+            "EtaRouter02": "0x3c0845Fa56C8332255885b5A3C479cE96c9eD2E0"
+        },
+        "pairs": {
+            "0x3d0440A3eA85e120864ae609d1383006A1490786-0x935B30d75F57659CF41Bd868A8032E58Fe53C369": {
+                "id": 3,
+                "tokenA": "wETH",
+                "tokenB": "DCT",
+                "pairAddress": "0x4384e5B259009aEa38bb7196D06367731172aF1f"
+            },
+            "0x935B30d75F57659CF41Bd868A8032E58Fe53C369-0x3d0440A3eA85e120864ae609d1383006A1490786": {
+                "id": 3,
+                "tokenA": "DCT",
+                "tokenB": "wETH",
+                "pairAddress": "0x4384e5B259009aEa38bb7196D06367731172aF1f"
+            },
+            "0x3d0440A3eA85e120864ae609d1383006A1490786-0xBc43C5D55d936cA74dB498a123433eb9EcA0882D": {
+                "id": 9,
+                "tokenA": "wETH",
+                "tokenB": "WLR",
+                "pairAddress": "0x9a31dD51f1BcA696f7940e015929034f3243f87E"
+            },
+            "0xBc43C5D55d936cA74dB498a123433eb9EcA0882D-0x3d0440A3eA85e120864ae609d1383006A1490786": {
+                "id": 9,
+                "tokenA": "WLR",
+                "tokenB": "wETH",
+                "pairAddress": "0x9a31dD51f1BcA696f7940e015929034f3243f87E"
+            },
+            "0x3d0440A3eA85e120864ae609d1383006A1490786-0xf0BB8e57747b9C06b204Be6bb1Ce066F4611B613": {
+                "id": 12,
+                "tokenA": "wETH",
+                "tokenB": "MAV",
+                "pairAddress": "0x66135064C6e1484b0AaC0f9E4b37f4607D4c1c56"
+            },
+            "0xf0BB8e57747b9C06b204Be6bb1Ce066F4611B613-0x3d0440A3eA85e120864ae609d1383006A1490786": {
+                "id": 12,
+                "tokenA": "MAV",
+                "tokenB": "wETH",
+                "pairAddress": "0x66135064C6e1484b0AaC0f9E4b37f4607D4c1c56"
+            },
+            "0x935B30d75F57659CF41Bd868A8032E58Fe53C369-0x4beC7Ad5a195fc04b8eB600d975Fc70fB534d4Fc": {
+                "id": 7,
+                "tokenA": "DCT",
+                "tokenB": "DIB",
+                "pairAddress": "0x3F2b4679a84c682a2Eacb72b2C53368A39c9bA38"
+            },
+            "0x4beC7Ad5a195fc04b8eB600d975Fc70fB534d4Fc-0x935B30d75F57659CF41Bd868A8032E58Fe53C369": {
+                "id": 7,
+                "tokenA": "DIB",
+                "tokenB": "DCT",
+                "pairAddress": "0x3F2b4679a84c682a2Eacb72b2C53368A39c9bA38"
+            },
+            "0x935B30d75F57659CF41Bd868A8032E58Fe53C369-0xBc43C5D55d936cA74dB498a123433eb9EcA0882D": {
+                "id": 10,
+                "tokenA": "DCT",
+                "tokenB": "WLR",
+                "pairAddress": "0x5be928BD26CE6CF6Fa1129bf5C3929B48B3fB40D"
+            },
+            "0xBc43C5D55d936cA74dB498a123433eb9EcA0882D-0x935B30d75F57659CF41Bd868A8032E58Fe53C369": {
+                "id": 10,
+                "tokenA": "WLR",
+                "tokenB": "DCT",
+                "pairAddress": "0x5be928BD26CE6CF6Fa1129bf5C3929B48B3fB40D"
+            },
+            "0x935B30d75F57659CF41Bd868A8032E58Fe53C369-0xf0BB8e57747b9C06b204Be6bb1Ce066F4611B613": {
+                "id": 13,
+                "tokenA": "DCT",
+                "tokenB": "MAV",
+                "pairAddress": "0xB903430E5eF3AFF4D911aB3E451634f2341E3751"
+            },
+            "0xf0BB8e57747b9C06b204Be6bb1Ce066F4611B613-0x935B30d75F57659CF41Bd868A8032E58Fe53C369": {
+                "id": 13,
+                "tokenA": "MAV",
+                "tokenB": "DCT",
+                "pairAddress": "0xB903430E5eF3AFF4D911aB3E451634f2341E3751"
+            },
+            "0x4beC7Ad5a195fc04b8eB600d975Fc70fB534d4Fc-0xf0BB8e57747b9C06b204Be6bb1Ce066F4611B613": {
+                "id": 14,
+                "tokenA": "DIB",
+                "tokenB": "MAV",
+                "pairAddress": "0x08F0F6D4602aCD9E599D8df46aFD4F4F636dBcD9"
+            },
+            "0xf0BB8e57747b9C06b204Be6bb1Ce066F4611B613-0x4beC7Ad5a195fc04b8eB600d975Fc70fB534d4Fc": {
+                "id": 14,
+                "tokenA": "MAV",
+                "tokenB": "DIB",
+                "pairAddress": "0x08F0F6D4602aCD9E599D8df46aFD4F4F636dBcD9"
+            },
+            "0xBc43C5D55d936cA74dB498a123433eb9EcA0882D-0xf0BB8e57747b9C06b204Be6bb1Ce066F4611B613": {
+                "id": 15,
+                "tokenA": "WLR",
+                "tokenB": "MAV",
+                "pairAddress": "0x02Feb8CFf9D031D6C03Aa14067C00428b057eF5c"
+            },
+            "0xf0BB8e57747b9C06b204Be6bb1Ce066F4611B613-0xBc43C5D55d936cA74dB498a123433eb9EcA0882D": {
+                "id": 15,
+                "tokenA": "MAV",
+                "tokenB": "WLR",
+                "pairAddress": "0x02Feb8CFf9D031D6C03Aa14067C00428b057eF5c"
+            }
+        },
+        "misc": {
+            "Multicall2": "0x13051b41501d1d04Dfc8fcd1D9D0526ff8aFBC62"
+        },
+        "vault": {
+            "tokens": {
+                "ibDCT": "0x9C80FF2CF36e705ee867EcDD6824b6ca9dE5d3F6",
+                "ibMAV": "0x5e9cE5FE11C531f4072C0120E2eF6d36EE6f62fd",
+                "ibWLR": "0x9348ED2CC8CeD064C42Ab8bb3b602E66D34da307",
+                "ibDIB": "0x2212df2c9314fdb742D4e60ce5d8cf2b3471f92d"
+            },
+            "Oracle": "0x16Dc9838972942CCfaa84D7c80385A798FFbDc2C",
+            "ChainLink": "0xB242DECfc5549d1AC0dDB9633bC9d80f53e963fF",
+            "EtaVault": "0x0b0a3BfB696fF148B9C298309B80db90Bb422a1d",
+            "RewardControl": "0x0CCE6a6aD4813aC21DFA7D8bb56689F32141Fd65",
+            "RateModel": "0x96AF6ECf0702bdE25293FBedECbd68990a177833"
+        },
+        "stablecoin": {
+            "etaUSD": "0x9849FCfd2A23A5b690481c200fe21071aB07DE43"
+        },
+        "bridge": {
+            "Faucet": "0x69029829Fb37a4FEB0686da71321864f1F1b87DD",
+            "Bridge": "0x893d69ba3D7eFF05C7E9E39C45C36060bA7aDc1D"
+        }
+    },
+    "scroll_alpha": {
+        "bridge": {
+            "Faucet": "0x3d0440A3eA85e120864ae609d1383006A1490786",
+            "Bridge": "0x935B30d75F57659CF41Bd868A8032E58Fe53C369"
+        },
+        "stablecoin": {
+            "etaUSD": "0x4beC7Ad5a195fc04b8eB600d975Fc70fB534d4Fc"
+        },
+        "vault": {
+            "tokens": {
+                "ibDCT": "0xBc43C5D55d936cA74dB498a123433eb9EcA0882D",
+                "ibMAV": "0xf0BB8e57747b9C06b204Be6bb1Ce066F4611B613",
+                "ibWLR": "0x370f6f309970511b9AfBb15D70550c7d88ADc23d",
+                "ibDIB": "0x0610a5b38793e03bdAaE2E197EfDe227B1c87a93"
+            },
+            "Oracle": "0xb13Ce5292F07b372F91bF445cd0b66c76Ed1DaDA",
+            "ChainLink": "0x54c4f03aC3F498263ac904EDE5F690342687d4ce",
+            "EtaVault": "0x5a3ED2864148722e2A625e70237E7cc2D0df29a5",
+            "RewardControl": "0x7f77AA1F167fb79F46c24Fc9CeAA5Efb4AB8eEfd",
+            "RateModel": "0x58cF2a5325C36C891289b741FDf674A3396378A1"
+        },
+        "misc": {
+            "Multicall2": "0x19F385fD55793cc82Fc258AAE45B0BA0158A5023"
+        },
+        "tokens": {
+            "DCT": "0xEe6ef3FA09858E6D7cd6873fcAC79FcA4aBaF281",
+            "DIB": "0xfd6B4029b0A1af7b2995Bd2be862BD643AF115F1",
+            "WLR": "0xB3798f7b3A28FD8ac505ecF05de94B962E946089",
+            "MAV": "0x03aa21578A3B1895277F3A8e4e2973270D650472",
+            "ETA": "0x93aF686296Bf79161165DFE93a8E3BFc8323927B",
+            "wETH": "0xad95cc76Ce5F9cc715a0093261d70dF72E61afAe"
+        },
+        "swap": {
+            "EtaFactory": "0xC766BD2b43EE71954a60585028518Aaf1fb5Ae3F",
+            "EtaRouter02": "0x3D85963d01c981003d74A7d827b99E4cC62e048F"
+        },
+        "pairs": {
+            "0xEe6ef3FA09858E6D7cd6873fcAC79FcA4aBaF281-0xfd6B4029b0A1af7b2995Bd2be862BD643AF115F1": {
+                "id": 4,
+                "tokenA": "DCT",
+                "tokenB": "DIB",
+                "pairAddress": "0xa4aa2992725dAAA9b1014adDF76ECF23CCce8409"
+            },
+            "0xfd6B4029b0A1af7b2995Bd2be862BD643AF115F1-0xEe6ef3FA09858E6D7cd6873fcAC79FcA4aBaF281": {
+                "id": 4,
+                "tokenA": "DIB",
+                "tokenB": "DCT",
+                "pairAddress": "0xa4aa2992725dAAA9b1014adDF76ECF23CCce8409"
+            },
+            "0xEe6ef3FA09858E6D7cd6873fcAC79FcA4aBaF281-0xB3798f7b3A28FD8ac505ecF05de94B962E946089": {
+                "id": 6,
+                "tokenA": "DCT",
+                "tokenB": "WLR",
+                "pairAddress": "0xEDEd66a2E9dfCAB4C66562051b91ef1Fcd98ba9f"
+            },
+            "0xB3798f7b3A28FD8ac505ecF05de94B962E946089-0xEe6ef3FA09858E6D7cd6873fcAC79FcA4aBaF281": {
+                "id": 6,
+                "tokenA": "WLR",
+                "tokenB": "DCT",
+                "pairAddress": "0xEDEd66a2E9dfCAB4C66562051b91ef1Fcd98ba9f"
+            },
+            "0xEe6ef3FA09858E6D7cd6873fcAC79FcA4aBaF281-0x03aa21578A3B1895277F3A8e4e2973270D650472": {
+                "id": 9,
+                "tokenA": "DCT",
+                "tokenB": "MAV",
+                "pairAddress": "0x5B4722e4e775108fcC04d3b0C057BF4B7ee18893"
+            },
+            "0x03aa21578A3B1895277F3A8e4e2973270D650472-0xEe6ef3FA09858E6D7cd6873fcAC79FcA4aBaF281": {
+                "id": 9,
+                "tokenA": "MAV",
+                "tokenB": "DCT",
+                "pairAddress": "0x5B4722e4e775108fcC04d3b0C057BF4B7ee18893"
+            },
+            "0xEe6ef3FA09858E6D7cd6873fcAC79FcA4aBaF281-0xad95cc76Ce5F9cc715a0093261d70dF72E61afAe": {
+                "id": 13,
+                "tokenA": "DCT",
+                "tokenB": "wETH",
+                "pairAddress": "0xCe5c43d616CCF346edeCA02706802fCBd0ADe029"
+            },
+            "0xad95cc76Ce5F9cc715a0093261d70dF72E61afAe-0xEe6ef3FA09858E6D7cd6873fcAC79FcA4aBaF281": {
+                "id": 13,
+                "tokenA": "wETH",
+                "tokenB": "DCT",
+                "pairAddress": "0xCe5c43d616CCF346edeCA02706802fCBd0ADe029"
+            },
+            "0xfd6B4029b0A1af7b2995Bd2be862BD643AF115F1-0x03aa21578A3B1895277F3A8e4e2973270D650472": {
+                "id": 10,
+                "tokenA": "DIB",
+                "tokenB": "MAV",
+                "pairAddress": "0xa82E3448AA30c081e0394F646798cFB122dc944F"
+            },
+            "0x03aa21578A3B1895277F3A8e4e2973270D650472-0xfd6B4029b0A1af7b2995Bd2be862BD643AF115F1": {
+                "id": 10,
+                "tokenA": "MAV",
+                "tokenB": "DIB",
+                "pairAddress": "0xa82E3448AA30c081e0394F646798cFB122dc944F"
+            },
+            "0xB3798f7b3A28FD8ac505ecF05de94B962E946089-0x03aa21578A3B1895277F3A8e4e2973270D650472": {
+                "id": 11,
+                "tokenA": "WLR",
+                "tokenB": "MAV",
+                "pairAddress": "0x858400E6d11C831c48dD1Efe51B2E0ef90b94Af3"
+            },
+            "0x03aa21578A3B1895277F3A8e4e2973270D650472-0xB3798f7b3A28FD8ac505ecF05de94B962E946089": {
+                "id": 11,
+                "tokenA": "MAV",
+                "tokenB": "WLR",
+                "pairAddress": "0x858400E6d11C831c48dD1Efe51B2E0ef90b94Af3"
+            },
+            "0xB3798f7b3A28FD8ac505ecF05de94B962E946089-0xad95cc76Ce5F9cc715a0093261d70dF72E61afAe": {
+                "id": 14,
+                "tokenA": "WLR",
+                "tokenB": "wETH",
+                "pairAddress": "0x8700ffc8898fdB19945f23bDF0268426C9598827"
+            },
+            "0xad95cc76Ce5F9cc715a0093261d70dF72E61afAe-0xB3798f7b3A28FD8ac505ecF05de94B962E946089": {
+                "id": 14,
+                "tokenA": "wETH",
+                "tokenB": "WLR",
+                "pairAddress": "0x8700ffc8898fdB19945f23bDF0268426C9598827"
+            },
+            "0x03aa21578A3B1895277F3A8e4e2973270D650472-0xad95cc76Ce5F9cc715a0093261d70dF72E61afAe": {
+                "id": 15,
+                "tokenA": "MAV",
+                "tokenB": "wETH",
+                "pairAddress": "0xf89fcb29Ef3740c835CecFeA9F91C4EB866dD4e6"
+            },
+            "0xad95cc76Ce5F9cc715a0093261d70dF72E61afAe-0x03aa21578A3B1895277F3A8e4e2973270D650472": {
+                "id": 15,
+                "tokenA": "wETH",
+                "tokenB": "MAV",
+                "pairAddress": "0xf89fcb29Ef3740c835CecFeA9F91C4EB866dD4e6"
+            }
+        }
+    },
+    "mumbai": {
+        "tokens": {
+            "wETH": "0x935B30d75F57659CF41Bd868A8032E58Fe53C369",
+            "DCT": "0x4beC7Ad5a195fc04b8eB600d975Fc70fB534d4Fc",
+            "DIB": "0xBc43C5D55d936cA74dB498a123433eb9EcA0882D",
+            "WLR": "0xf0BB8e57747b9C06b204Be6bb1Ce066F4611B613",
+            "MAV": "0x370f6f309970511b9AfBb15D70550c7d88ADc23d"
+        }
+    }
+}

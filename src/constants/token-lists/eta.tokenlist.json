@@ -1,0 +1,342 @@
+{
+    "name": "Eta Tokenlist",
+    "tokens": [
+        {
+            "id": "",
+            "name": "Doggy Coin Token",
+            "address": "",
+            "symbol": "DCT",
+            "decimals": 18,
+            "chainId": 5001,
+            "logoURI": "https://i.ibb.co/R2pCkRq/dct.png"
+        },
+        {
+            "id": "",
+            "name": "Wallaroo Token",
+            "address": "",
+            "symbol": "WLR",
+            "decimals": 18,
+            "chainId": 5001,
+            "logoURI": "https://i.ibb.co/8BkkYZF/wlr.png"
+        },
+        {
+            "id": "",
+            "name": "Maverick Token",
+            "address": "",
+            "symbol": "MAV",
+            "decimals": 18,
+            "chainId": 5001,
+            "logoURI": "https://i.ibb.co/q5c5NxL/mav.png"
+        },
+        {
+            "id": "",
+            "name": "Dibs Token",
+            "address": "",
+            "symbol": "DIB",
+            "decimals": 18,
+            "chainId": 5001,
+            "logoURI": "https://i.ibb.co/3RVSsfs/dib.png"
+        },
+        {
+            "id": "",
+            "name": "ETA Token",
+            "address": "",
+            "symbol": "ETA",
+            "decimals": 18,
+            "chainId": 5001,
+            "logoURI": "/images/tokens/eta-square.png"
+        },
+        {
+            "id": "",
+            "name": "ibDCT",
+            "address": "",
+            "symbol": "ibDCT",
+            "decimals": 18,
+            "chainId": 5001,
+            "logoURI": "https://i.ibb.co/1QSdGbL/ibdct.png"
+        },
+        {
+            "id": "",
+            "name": "ibMAV",
+            "address": "",
+            "symbol": "ibMAV",
+            "decimals": 18,
+            "chainId": 5001,
+            "logoURI": "https://i.ibb.co/X28x84P/ibmav.png"
+        },
+        {
+            "id": "",
+            "name": "ibWLR",
+            "address": "",
+            "symbol": "ibWLR",
+            "decimals": 18,
+            "chainId": 5001,
+            "logoURI": "https://i.ibb.co/TWXKmNt/ibwlr.png"
+        },
+
+        {
+            "id": "",
+            "name": "Wrapped MATIC",
+            "address": "",
+            "symbol": "wMATIC",
+            "decimals": 18,
+            "chainId": 80001,
+            "logoURI": "https://assets.coingecko.com/coins/images/14073/large/matic.png"
+        },
+        {
+            "id": "",
+            "name": "Doggy Coin Token",
+            "address": "",
+            "symbol": "DCT",
+            "decimals": 18,
+            "chainId": 80001,
+            "logoURI": "https://i.ibb.co/R2pCkRq/dct.png"
+        },
+        {
+            "id": "",
+            "name": "Wallaroo Token",
+            "address": "",
+            "symbol": "WLR",
+            "decimals": 18,
+            "chainId": 80001,
+            "logoURI": "https://i.ibb.co/8BkkYZF/wlr.png"
+        },
+        {
+            "id": "",
+            "name": "Maverick Token",
+            "address": "",
+            "symbol": "MAV",
+            "decimals": 18,
+            "chainId": 80001,
+            "logoURI": "https://i.ibb.co/q5c5NxL/mav.png"
+        },
+        {
+            "id": "",
+            "name": "Dibs Token",
+            "address": "",
+            "symbol": "DIB",
+            "decimals": 18,
+            "chainId": 80001,
+            "logoURI": "https://i.ibb.co/3RVSsfs/dib.png"
+        },
+
+        {
+            "id": "",
+            "name": "Doggy Coin Token",
+            "address": "",
+            "symbol": "DCT",
+            "decimals": 18,
+            "chainId": 10200,
+            "logoURI": "https://i.ibb.co/R2pCkRq/dct.png"
+        },
+        {
+            "id": "",
+            "name": "Wallaroo Token",
+            "address": "",
+            "symbol": "WLR",
+            "decimals": 18,
+            "chainId": 10200,
+            "logoURI": "https://i.ibb.co/8BkkYZF/wlr.png"
+        },
+        {
+            "id": "",
+            "name": "Maverick Token",
+            "address": "",
+            "symbol": "MAV",
+            "decimals": 18,
+            "chainId": 10200,
+            "logoURI": "https://i.ibb.co/q5c5NxL/mav.png"
+        },
+        {
+            "id": "",
+            "name": "Dibs Token",
+            "address": "",
+            "symbol": "DIB",
+            "decimals": 18,
+            "chainId": 10200,
+            "logoURI": "https://i.ibb.co/3RVSsfs/dib.png"
+        },
+        {
+            "id": "",
+            "name": "ETA Token",
+            "address": "",
+            "symbol": "ETA",
+            "decimals": 18,
+            "chainId": 10200,
+            "logoURI": "/images/tokens/eta-square.png"
+        },
+        {
+            "id": "",
+            "name": "ibDCT",
+            "address": "",
+            "symbol": "ibDCT",
+            "decimals": 18,
+            "chainId": 10200,
+            "logoURI": "https://i.ibb.co/1QSdGbL/ibdct.png"
+        },
+        {
+            "id": "",
+            "name": "ibMAV",
+            "address": "",
+            "symbol": "ibMAV",
+            "decimals": 18,
+            "chainId": 10200,
+            "logoURI": "https://i.ibb.co/X28x84P/ibmav.png"
+        },
+        {
+            "id": "",
+            "name": "ibWLR",
+            "address": "",
+            "symbol": "ibWLR",
+            "decimals": 18,
+            "chainId": 10200,
+            "logoURI": "https://i.ibb.co/TWXKmNt/ibwlr.png"
+        },
+
+        {
+            "id": "",
+            "name": "Doggy Coin Token",
+            "address": "",
+            "symbol": "DCT",
+            "decimals": 18,
+            "chainId": 534353,
+            "logoURI": "https://i.ibb.co/R2pCkRq/dct.png"
+        },
+        {
+            "id": "",
+            "name": "Wallaroo Token",
+            "address": "",
+            "symbol": "WLR",
+            "decimals": 18,
+            "chainId": 534353,
+            "logoURI": "https://i.ibb.co/8BkkYZF/wlr.png"
+        },
+        {
+            "id": "",
+            "name": "Maverick Token",
+            "address": "",
+            "symbol": "MAV",
+            "decimals": 18,
+            "chainId": 534353,
+            "logoURI": "https://i.ibb.co/q5c5NxL/mav.png"
+        },
+        {
+            "id": "",
+            "name": "Dibs Token",
+            "address": "",
+            "symbol": "DIB",
+            "decimals": 18,
+            "chainId": 534353,
+            "logoURI": "https://i.ibb.co/3RVSsfs/dib.png"
+        },
+        {
+            "id": "",
+            "name": "ETA Token",
+            "address": "",
+            "symbol": "ETA",
+            "decimals": 18,
+            "chainId": 534353,
+            "logoURI": "/images/tokens/eta-square.png"
+        },
+        {
+            "id": "",
+            "name": "ibDCT",
+            "address": "",
+            "symbol": "ibDCT",
+            "decimals": 18,
+            "chainId": 534353,
+            "logoURI": "https://i.ibb.co/1QSdGbL/ibdct.png"
+        },
+        {
+            "id": "",
+            "name": "ibMAV",
+            "address": "",
+            "symbol": "ibMAV",
+            "decimals": 18,
+            "chainId": 534353,
+            "logoURI": "https://i.ibb.co/X28x84P/ibmav.png"
+        },
+        {
+            "id": "",
+            "name": "ibWLR",
+            "address": "",
+            "symbol": "ibWLR",
+            "decimals": 18,
+            "chainId": 534353,
+            "logoURI": "https://i.ibb.co/TWXKmNt/ibwlr.png"
+        },
+
+        {
+            "id": "",
+            "name": "Doggy Coin Token",
+            "address": "",
+            "symbol": "DCT",
+            "decimals": 18,
+            "chainId": 1442,
+            "logoURI": "https://i.ibb.co/R2pCkRq/dct.png"
+        },
+        {
+            "id": "",
+            "name": "Wallaroo Token",
+            "address": "",
+            "symbol": "WLR",
+            "decimals": 18,
+            "chainId": 1442,
+            "logoURI": "https://i.ibb.co/8BkkYZF/wlr.png"
+        },
+        {
+            "id": "",
+            "name": "Maverick Token",
+            "address": "",
+            "symbol": "MAV",
+            "decimals": 18,
+            "chainId": 1442,
+            "logoURI": "https://i.ibb.co/q5c5NxL/mav.png"
+        },
+        {
+            "id": "",
+            "name": "Dibs Token",
+            "address": "",
+            "symbol": "DIB",
+            "decimals": 18,
+            "chainId": 1442,
+            "logoURI": "https://i.ibb.co/3RVSsfs/dib.png"
+        },
+        {
+            "id": "",
+            "name": "ETA Token",
+            "address": "",
+            "symbol": "ETA",
+            "decimals": 18,
+            "chainId": 1442,
+            "logoURI": "/images/tokens/eta-square.png"
+        },
+        {
+            "id": "",
+            "name": "ibDCT",
+            "address": "",
+            "symbol": "ibDCT",
+            "decimals": 18,
+            "chainId": 1442,
+            "logoURI": "https://i.ibb.co/1QSdGbL/ibdct.png"
+        },
+        {
+            "id": "",
+            "name": "ibMAV",
+            "address": "",
+            "symbol": "ibMAV",
+            "decimals": 18,
+            "chainId": 1442,
+            "logoURI": "https://i.ibb.co/X28x84P/ibmav.png"
+        },
+        {
+            "id": "",
+            "name": "ibWLR",
+            "address": "",
+            "symbol": "ibWLR",
+            "decimals": 18,
+            "chainId": 1442,
+            "logoURI": "https://i.ibb.co/TWXKmNt/ibwlr.png"
+        }
+    ]
+}
